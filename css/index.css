@@ -314,7 +314,9 @@ body{
 
 
 
-
+.btn:focus{
+    color: transparent !important;
+}
 
 
 
@@ -344,8 +346,6 @@ body{
     color: transparent !important;
     color:#00f6a836 !important;
 }
-
-
 .nav-link{
     color: white !important;
     font-weight: 500;
@@ -409,6 +409,7 @@ body{
     width: 60%;
     height: 3PX !important;
     border: 2px solid white;
+    color: white !important;
     border-radius: 10px !important;
     opacity: 100%;
 }
@@ -437,6 +438,14 @@ body{
 }
 
 
+@media screen and (max-width:520px) {
+
+    .header-heading{
+        text-align: left !important;
+        font-size: 50px !important;
+    }
+}
+
 
 .fr{
     text-align: center;
@@ -453,6 +462,7 @@ body{
     height: 3PX !important;
     border: 2px solid #10c98f;
     opacity: 100%;
+    color: #10c98f !important;
 }
 
 .header-input{
@@ -490,6 +500,7 @@ body{
     width: 15%;
     height: 3PX !important;
     border: 2px solid #10c98f;
+    color: #10c98f !important;
     opacity: 100%;
 }
 .second-div-subheading{
@@ -649,6 +660,7 @@ body{
 .section-hr{
     border-width: 2px;
     border-color: gray !important;
+    color:gray !important;
 }
 .bullets{
     color: #10c98f;
@@ -705,6 +717,7 @@ body{
     width: 10%;
     height: 3PX !important;
     border: 2px solid #10c98f;
+    color: #10c98f !important;
     opacity: 100%;
     
 }
@@ -1124,6 +1137,7 @@ footer a:hover{
 .service-hr{
     border-width: 1px;
     border-color: gray !important;
+    color: gray !important;
 }
 .card-service-button{
     border-radius: 0px !important;
@@ -1167,6 +1181,7 @@ footer a:hover{
 }
 .web-development-hr{
     border: 2px solid #8951DB ;
+    color: #8951DB !important;
 }
 .web-development-title{
     color: #2c006e;
@@ -1376,6 +1391,7 @@ opacity: 0;
 }
 .Graphic-Design-hr{
     border: 2px solid #4172fa ;
+    color: #4172fa !important;
 }
 .graphic-design-title{
     color: #2626bc;
@@ -1409,6 +1425,7 @@ opacity: 0;
 }
 .digital-marketing-hr{
     border: 2px solid #299617 ;
+    color: #299617 !important;
 }
 .digital-marketing-title{
     color: #004226!important;
@@ -1694,6 +1711,7 @@ opacity: 0;
 .category-hr{
     height: 1px;
     color: #bab9bd !important;
+    border:  #bab9bd ;
     opacity: 25% ;
     width: 90%;
     justify-self: center !important;
@@ -1805,10 +1823,13 @@ opacity: 0;
 @media screen and (max-width:576px) {
     .acute-image{
         margin-top: 0px !important;
-        margin-left: -50px !important;
+        margin-left: -30px !important;
+        width: 120% !important;
     }
     .header-button{
         width: 70% !important;
+    }
+    #myButton{
     }
     
 }
@@ -1966,7 +1987,7 @@ opacity: 0;
         transform: translateX(41px);
     }
 
-    .call-float-button{
+    /* .call-float-button{
         width: 38px !important;
         height:38px !important;
     }
@@ -1974,7 +1995,7 @@ opacity: 0;
         margin-top: 9px;
         height: 21px;
         width: 21px;
-    }
+    } */
 
     
     }

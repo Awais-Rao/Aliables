@@ -10,7 +10,7 @@
             showPopup: true,
             showOnIE: false,
             position: '',
-            size: '55px',
+            size: '48px',
             headerTitle: 'Welcome!',
             headerColor: '#25D366',
             backgroundColor: '#25D366',
