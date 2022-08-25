@@ -8,7 +8,7 @@
 }
 
 body{ 
-    
+
 }
 
 /* -- ScroolBar Customization -- */
@@ -445,6 +445,7 @@ body{
         text-align: left !important;
         font-size: 50px !important;
     }
+    
 }
 
 
@@ -1830,9 +1831,13 @@ opacity: 0;
     .header-button{
         width: 80% !important;
     }
-    #myButton{
+    .date-date{
+        font-size: x-large !important;
     }
-    
+    .contactus-form-input textarea,
+    .contactus-form-input input{
+        border-color: #bebebe  !important;
+    }
 }
 
 
