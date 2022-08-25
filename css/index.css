@@ -142,7 +142,7 @@ body{
  .floating-wpp {
     size: 55px !important;
     position: fixed;
-    bottom: 80px;
+    bottom: 70px;
     right: 15px;
     font-size: 14px;
     transition: bottom 0.2s;
@@ -257,8 +257,8 @@ body{
 
 .call-float-button{
 	position:fixed;
-	width: 55px;
-	height:55px;
+	width: 48px;
+	height:48px;
 	bottom:12px;
 	right:15px;
 	background-color:rgb(0, 119, 255);
@@ -275,9 +275,9 @@ body{
 }
 
 .call-float-icon{
-	margin-top:13px;
-    height: 30px;
-    width: 30px;
+	margin-top:11px;
+    height: 25px;
+    width: 25px;
 }
 .call-float-icon:hover{
 	padding: 1px !important;
@@ -346,6 +346,7 @@ body{
     color: transparent !important;
     color:#00f6a836 !important;
 }
+
 .nav-link{
     color: white !important;
     font-weight: 500;
@@ -1827,7 +1828,7 @@ opacity: 0;
         width: 120% !important;
     }
     .header-button{
-        width: 70% !important;
+        width: 80% !important;
     }
     #myButton{
     }
