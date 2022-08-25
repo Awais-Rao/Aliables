@@ -14,7 +14,7 @@
             headerTitle: 'Welcome!',
             headerColor: '#25D366',
             backgroundColor: '#25D366',
-            buttonImage: '<img src="images/whatsapp.png" />'
+            buttonImage: '<img src="../images/whatsapp.png" />'
         });
     });
 
