@@ -330,14 +330,21 @@ body{
     /* background-color: #26be9f; */
      background-color: #4ebdb4; 
 }
-.previous-navbar{
-    background-color: purple !important;
+.togler-icon{
+    color: white;
+    font-size: 35px;
+    margin-top: -2px !important;
 }
-.next-navbar{
-    background-color: yellow !important;
-    position:fixed;
-    top: 0;
+/* .navbar-toggler-icon{
+
+    background-color: white;
+    color: white;
+} */
+.navbar-toggler{
+    color: transparent !important;
+    color:#00f6a836 !important;
 }
+
 
 .nav-link{
     color: white !important;
